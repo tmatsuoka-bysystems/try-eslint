@@ -7,6 +7,7 @@ tester.run("var-prefixy-myao", varPrefixMyao, {
     invalid: [
         {
             code: "const user = new User()",
+            output: `const myaoUser = new User()`,
             errors: [{ message: "変数の頭には必ずmyaoをつけてね🐈" }],
         },
     ],
