@@ -1,0 +1,19 @@
+{
+  "name": "eslint-plugin-myao",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "tsc && jest"
+  },
+  "dependencies": {
+    "typescript": "^4.6.4"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.4.2",
+    "@types/jest": "^27.5.1",
+    "eslint": "^8.15.0",
+    "jest": "^28.1.0",
+    "ts-jest": "^28.0.2"
+  }
+}
